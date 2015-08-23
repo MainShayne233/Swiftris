@@ -26,6 +26,7 @@
 		261104C21B8A0973000FEB5B /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261104BC1B8A0973000FEB5B /* gameboard@2x.png */; };
 		261104C31B8A0973000FEB5B /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 261104BD1B8A0973000FEB5B /* whitebg.png */; };
 		261104C41B8A0973000FEB5B /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261104BE1B8A0973000FEB5B /* whitebg@2x.png */; };
+		26AA59711B8A25E500064F4B /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA59701B8A25E500064F4B /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		261104BC1B8A0973000FEB5B /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
 		261104BD1B8A0973000FEB5B /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		261104BE1B8A0973000FEB5B /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
+		26AA59701B8A25E500064F4B /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				261104881B8A0708000FEB5B /* AppDelegate.swift */,
 				2611048C1B8A0708000FEB5B /* GameScene.swift */,
 				2611048E1B8A0708000FEB5B /* GameViewController.swift */,
+				26AA59701B8A25E500064F4B /* Array2D.swift */,
 				261104901B8A0708000FEB5B /* Main.storyboard */,
 				261104931B8A0708000FEB5B /* Images.xcassets */,
 				261104951B8A0708000FEB5B /* LaunchScreen.xib */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2611048D1B8A0708000FEB5B /* GameScene.swift in Sources */,
+				26AA59711B8A25E500064F4B /* Array2D.swift in Sources */,
 				2611048F1B8A0708000FEB5B /* GameViewController.swift in Sources */,
 				261104891B8A0708000FEB5B /* AppDelegate.swift in Sources */,
 			);
@@ -470,6 +474,7 @@
 				261104A81B8A0708000FEB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		261104A91B8A0708000FEB5B /* Build configuration list for PBXNativeTarget "SwiftrisTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				261104AB1B8A0708000FEB5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
